@@ -4,7 +4,8 @@ permissions:
   contents: write
   issues: write
   actions: write
-
+  workflows: write
+  
 on:
   schedule:
     - cron: '0 */6 * * *' # every 6 hours
